@@ -22,6 +22,5 @@ find_oldest_site <- function(state, parameter) {
   return(best_site)
 }
 find_oldest_sites <- function(states, parameter) {
-  browser()
   purrr::map_df(states, find_oldest_site, parameter)
 }
