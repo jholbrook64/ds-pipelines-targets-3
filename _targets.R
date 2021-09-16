@@ -6,6 +6,7 @@ tar_option_set(packages = c("tidyverse", "dataRetrieval", "urbnmapr", "rnaturale
 
 # Load functions needed by targets below
 source("1_fetch/src/find_oldest_sites.R")
+source("1_fetch/src/get_site_data.R")
 source("3_visualize/src/map_sites.R")
 
 # Configuration
